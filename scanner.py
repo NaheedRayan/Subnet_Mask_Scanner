@@ -27,7 +27,7 @@ print("local ip             : " + "\033[1;32m"+local_ip + '\033[0m')
 
 
 
-cmd = 'ip r | grep -o "'+ ".*" + adapter_name[1] + " proto kernel" + '"'
+cmd = 'ip r | grep -o "'+ ".*" + adapter_name[1] + ".*proto kernel" + '"'
 ps = subprocess.run(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
 subnetmask = ps.stdout.decode().strip().split(" ")
 
