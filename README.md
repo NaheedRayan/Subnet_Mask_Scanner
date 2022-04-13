@@ -33,4 +33,13 @@ Network IP address   : 192.168.0.0
 Network Mask         : 24
 ```
 
+Reference:
+https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php
+https://learnbyexample.github.io/learn_gnugrep_ripgrep/perl-compatible-regular-expressions.html
+https://www.cyberciti.biz/faq/grep-regular-expressions/
+https://fabianlee.org/2021/01/09/bash-grep-with-lookbehind-and-lookahead-to-isolate-desired-text/
+https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal-in-python
+https://realpython.com/python-ipaddress-module/
+
+
 ## The End
